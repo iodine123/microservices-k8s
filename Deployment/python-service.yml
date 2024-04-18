@@ -4,7 +4,9 @@ metadata:
   name: python-service
 spec:
   selector:
-    app: python-service
+    app: python-app
   ports:
-  - port: 3032
+  - protocol: TCP
+    port: 3032
     targetPort: 8000
+  type: ClusterIP
