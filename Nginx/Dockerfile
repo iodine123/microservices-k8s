@@ -1,7 +1,7 @@
 FROM nginx:latest
 
-COPY nginx.conf /etc/nginx/conf.d/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.conf
 
-EXPOSE 8080
+EXPOSE 30001
 
 CMD ["nginx", "-g", "daemon off;"]
