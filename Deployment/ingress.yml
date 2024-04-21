@@ -17,7 +17,7 @@ spec:
             port: 
               number: 3032
       - pathType: Prefix
-        path: "/getdata"
+        path: "/getdata/"
         backend:
           service:
             name: nodejsservice

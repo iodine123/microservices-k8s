@@ -15,7 +15,7 @@ const pool = new Pool({
 });
 
 // Define routes
-app.get('/', async (req, res) => {
+app.get('/getdata', async (req, res) => {
   try {
     // Query all tasks from the database
     const { rows } = await pool.query('SELECT * FROM tasks');
