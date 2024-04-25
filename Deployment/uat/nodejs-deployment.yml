@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: iodinehanifan/nodejs_todo_app
+        image: iodinehanifan/nodejs_todo_app:v1
         resources:
           limits:
             memory: "256Mi"
