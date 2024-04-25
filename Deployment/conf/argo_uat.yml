@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/iodine123/microservices-k8s.git
-    targetRevision: uat-testing
+    targetRevision: HEAD
     path: Deployment/uat
   destination:
     server: https://kubernetes.default.svc
