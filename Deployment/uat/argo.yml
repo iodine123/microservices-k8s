@@ -8,10 +8,10 @@ spec:
   source:
     repoURL: https://github.com/iodine123/microservices-k8s.git
     targetRevision: uat-testing
-    path: Deployment
+    path: Deployment/uat
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: uat
 
   syncPolicy:
     syncOptions:
