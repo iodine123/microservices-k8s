@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: iodinehanifan/nodejs_todo_app:v1
+        image: iodinehanifan/nodejs_todo_app:v2
         resources:
           limits:
             memory: "256Mi"
-            cpu: "500m"
+            cpu: "256m"
         ports:
         - containerPort: 3000
