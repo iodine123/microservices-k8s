@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: iodinehanifan/nginx_todo_app:v1
+        image: iodinehanifan/nginx_todo_app:v4
         resources:
           limits:
             memory: "1024Mi"
