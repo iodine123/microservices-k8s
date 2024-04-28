@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: iodinehanifan/python_todo_app:v3
+        image: iodinehanifan/python_todo_app:v4
         resources:
           limits:
             memory: "256Mi"
