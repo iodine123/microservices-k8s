@@ -1,9 +1,11 @@
 from flask import Flask, render_template, request, redirect, url_for
+from prometheus_flask_exporter import PrometheusMetrics
 import psycopg2
 import os
 import logging
 
 app = Flask(__name__)
+metrics = PrometheusMetrics(app)
 
 logging.basicConfig(filename='/app/logs.log', level=logging.INFO)
 
